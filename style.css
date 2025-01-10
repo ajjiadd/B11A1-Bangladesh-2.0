@@ -80,8 +80,19 @@
 
 
 /* Dropdown Button  */
+.dropdown{
+    position: relative;
+}
 
-
+.dropdown-content{
+    position: absolute;
+    top: 110%;
+    right: 10px;
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 /* system ------ setup ----- end */
 
 /* navbar section start */
