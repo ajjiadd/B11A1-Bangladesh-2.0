@@ -1,4 +1,108 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", serif;
 }
+
+/* system setup start */
+
+.body-section {
+  background: rgb(245, 245, 245);
+}
+.container {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.btn {
+  padding: 15px 30px 15px 30px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  color: rgb(0, 106, 80);
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.btn:hover {
+  background-color: rgb(0, 106, 80);
+  color: red;
+}
+
+.hero-btn {
+  border-radius: 8px;
+  padding: 17px 34px 17px 34px;
+  background: rgb(0, 106, 80);
+  border: 2px solid rgb(0, 106, 80);
+
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero-btn:hover{
+    color: rgb(0, 106, 80);
+    background: transparent;
+}
+
+/* system ------ setup ----- end */
+
+/* navbar section start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 31px 0;
+  align-items: center;
+}
+
+nav .logo {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* navbar section end */
+
+/* hero-section start  */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px 80px 100px;
+
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+
+.hero-section .heroContent p {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.hero-section .heroContent h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+/* hero-section end  */
