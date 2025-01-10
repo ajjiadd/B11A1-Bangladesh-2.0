@@ -8,6 +8,28 @@
 
 /* system setup start */
 
+/* color  */
+.vsnBtn1 {
+  background: rgb(84, 144, 245);
+}
+.vsnBdy1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.vsnBtn2 {
+  background: rgb(9, 161, 92);
+}
+.vsnBdy2 {
+  background: rgb(198, 228, 214);
+}
+
+.vsnBtn3 {
+  background: rgb(255, 194, 57);
+}
+.vsnBdy3 {
+  background: rgb(247, 235, 207);
+}
+
 .body-section {
   background: rgb(245, 245, 245);
 }
@@ -45,10 +67,20 @@
   font-weight: 600;
 }
 
-.hero-btn:hover{
-    color: rgb(0, 106, 80);
-    background: transparent;
+.hero-btn:hover {
+  color: rgb(0, 106, 80);
+  background: transparent;
 }
+
+.vsn-btn {
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+  border: none;
+}
+
+
+/* Dropdown Button  */
+
 
 /* system ------ setup ----- end */
 
@@ -106,3 +138,273 @@ nav .logo {
 }
 
 /* hero-section end  */
+
+/* pillar-section start  */
+.pillarsSection {
+  margin-top: 80px;
+}
+.pillarsSection h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 24px;
+}
+
+.pillarCard {
+  max-width: 302px;
+  padding: 24px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.pillarCard div {
+  max-width: 49px;
+  margin-bottom: 25px;
+}
+.pillarCard div img {
+  width: 100%;
+}
+
+.pillarCard h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.pillarCard p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 12px;
+}
+
+/* pillar-section end  */
+
+/* vison-section start  */
+
+.visionSection {
+  margin-top: 80px;
+}
+
+.visionSection h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.visionSection p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.visonCard {
+  max-width: 410px;
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.visonCard .vsnImg {
+  max-width: 62px;
+  padding-bottom: 25px;
+}
+
+.visonCard .vsnImg img {
+  width: 100%;
+}
+
+.visonCard h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.visonCard p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+/* vison-section end  */
+
+/* Testimonial-section start */
+.TestimonialBox {
+  padding: 48px 24px 48px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-top: 32px;
+}
+
+.quotePicContainer {
+  max-width: 64px;
+}
+.quotePicContainer img {
+  position: absolute;
+}
+
+.text-container {
+  padding-top: 22px;
+}
+
+.discussion {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.text-container h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 12px;
+}
+
+.text-container p {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 4px;
+}
+/* Testimonial-section end */
+
+/* Opinion section start */
+
+.opinionSection {
+  margin-top: 80px;
+}
+
+.opinionSection h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.opinionTable {
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 32px;
+  max-width: 1200px;
+}
+
+.opinionTable table {
+  width: 100%;
+}
+
+.opinionTable table tr th {
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.opinionTable table tr td {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 24px;
+
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.opinionTable table tr td div{
+    display: flex;
+    justify-content: center;
+}
+
+.opinionTable table button {
+  box-sizing: border-box;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  padding: 10px 14px 10px 14px;
+  align-items: center;
+
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  
+}
+
+.opinionTable table button i{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Opinion section end */
