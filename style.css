@@ -361,7 +361,8 @@ nav .logo {
   width: 100%;
 }
 
-.opinionTable table tr th {
+
+.opinionTable table thead tr th {
   padding: 24px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: rgb(198, 228, 214);
@@ -375,7 +376,7 @@ nav .logo {
   text-align: left;
 }
 
-.opinionTable table tr td {
+.opinionTable table tbody tr td {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: rgba(255, 255, 255, 0.1);
@@ -419,3 +420,292 @@ nav .logo {
 }
 
 /* Opinion section end */
+
+/* Recent News Section start */
+
+.recentNewsSection{
+    margin-top: 80px;
+}
+
+.title-subtitle h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+}
+
+.title-subtitle p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+}
+
+.newscardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.newsCard{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+background: rgb(255, 255, 255);
+max-width: 1280px;
+align-items: center;
+
+}
+
+/* .nwImgContainer{
+    max-width: 408px;
+    
+} */
+
+.nwImgContainer img{
+    border-radius: 24px;
+}
+
+.txtContainer h2{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.nwLogo{
+    max-width: 134px;
+    margin: 12px 0;
+}
+
+.nwLogo img{
+    width: 100%;
+}
+
+.txtContainer p span{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.tm{
+    margin-left: 12px;
+}
+
+.txtContainer p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+}
+
+.nwBtnContainer{
+    margin-top: 32px;
+}
+.nwBtn{
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+padding: 13px 26px 13px 26px;
+border: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+}
+
+.nw-crd-rvse{
+    flex-direction: row-reverse;
+}
+/* Recent News Section end */
+
+/* Donate Section start */
+.DonateSection{
+    margin: 80px 0;
+}
+
+.DonateSection h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.DonateSection p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 32px;
+}
+
+.DonateSection .donateCardContainer{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.DonateSection .donateCardContainer .donateCard{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 36px;
+max-width: 240px;
+}
+
+.DonateSection .donateCardContainer .donateCard:hover{
+    background: rgb(198, 228, 214);
+}
+
+.DonateSection .donateCardContainer .donateCard h2{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+}
+
+.otrAmntbox{
+    margin: 32px 0;
+    display: flex;
+    justify-content: center;
+}
+.otrAmntbox input{
+    width: 1032px;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+}
+
+.donateBtn{
+    display: flex;
+    justify-content: center;
+}
+
+/* Donate Section end */
+.NewsLetterSection{
+    border-radius: 24px;
+background: rgb(198, 228, 214);
+padding: 80px 100px 80px 100px;
+margin-bottom: 80px;
+}
+.NewsLetterSection p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.nl-txt-container h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.nl-txt-container p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.nlInputs{
+    display: flex;
+    gap: 0;
+    margin: 25px 0;
+    justify-content: center;
+    
+}
+.nlInputs input{
+    padding: 18px 40px 18px 40px;
+    width: 600px;
+    border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+border: none;
+}
+
+.nlBtn{
+    border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+border: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+/* footer section start */
+.FooterSection{
+    padding: 50px 160px 50px 160px;
+    background: rgb(255, 255, 255);
+}
+
+.FooterSection h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.divideLine{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin: 32px 0px;
+}
+/* footer section end */
