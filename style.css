@@ -78,6 +78,11 @@
   border: none;
 }
 
+.vsn-btn:hover{
+    background-color: rgb(0, 106, 80);
+    color: red;
+}
+
 
 /* Dropdown Button  */
 .dropdown{
@@ -92,6 +97,10 @@
 }
 .dropdown:hover .dropdown-content{
     display: block;
+}
+
+button{
+    cursor: pointer;
 }
 /* system ------ setup ----- end */
 
@@ -140,7 +149,7 @@ nav .logo {
 .hero-section .heroContent h1 {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
-  font-size: 55px;
+  font-size: 52px;
   font-weight: 700;
   line-height: 67px;
   letter-spacing: 0%;
@@ -178,6 +187,10 @@ nav .logo {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
+}
+
+.pillarCard:hover{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .pillarCard div {
@@ -245,6 +258,11 @@ nav .logo {
   box-sizing: border-box;
   border-radius: 16px;
 }
+
+.visonCard:hover{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 
 .visonCard .vsnImg {
   max-width: 62px;
@@ -466,13 +484,15 @@ align-items: center;
 
 }
 
-/* .nwImgContainer{
+.nwImgContainer{
     max-width: 408px;
-    
-} */
+} 
 
 .nwImgContainer img{
     border-radius: 24px;
+}
+.julPic{
+    width: 100%;
 }
 
 .txtContainer h2{
@@ -532,6 +552,11 @@ font-family: Fira Sans;
 font-size: 18px;
 font-weight: 600;
 line-height: 22px;
+}
+
+.nwBtn:hover{
+    background: rgb(0, 106, 80);
+    color: red;
 }
 
 .nw-crd-rvse{
@@ -679,6 +704,10 @@ font-weight: 600;
 line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
+}
+
+.nlBtn:hover{
+    color: red;
 }
 
 /* footer section start */
