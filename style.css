@@ -91,12 +91,13 @@
 
 .dropdown-content{
     position: absolute;
-    top: 110%;
-    right: 10px;
+    top: 100%;
+    
     display: none;
 }
 .dropdown:hover .dropdown-content{
     display: block;
+    
 }
 
 button{
@@ -606,9 +607,19 @@ padding: 36px;
 max-width: 240px;
 }
 
-.DonateSection .donateCardContainer .donateCard:hover{
-    background: rgb(198, 228, 214);
+.DonateSection .donateCardContainer .select-donate{
+  background: rgb(198, 228, 214);
 }
+
+.DonateSection .donateCardContainer:hover .select-donate{
+  background: rgb(255, 255, 255);
+}
+
+.DonateSection .donateCardContainer .donateCard:hover{
+  background: rgb(198, 228, 214);
+}
+
+
 
 .DonateSection .donateCardContainer .donateCard h2{
     color: rgba(14, 14, 14, 0.8);
